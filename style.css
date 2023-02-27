@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap');
+
+
+body {
+    background-color:#0F0F0F;
+}
+#principal {
+    padding: 25px 0px 0px 0px;
+}
+
+#principal label {
+    cursor: pointer;
+}
+
+label{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins';
+    color: white;
+    cursor: pointer;
+}
+
+img{
+    display: flex;
+    height: 20px;
+    flex-direction: column ;
+    margin-left: 47%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    color: white;
+}
+
+h4 {
+    font-family: 'Poppins';
+    font-size: small;
+    text-align: center;
+    color: white;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px 25px 10px 25px;
+
+}
+
+.form-group button {
+    font-size: medium;
+    width: 114px;
+    height: 55px;
+    font-family: 'inter';
+    background: #8C77E0;
+    border-radius: 25px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+#button1 { 
+    width: 100px;
+    height: 55px;
+
+}
+
+#button2{
+    width: 300px;
+    height: 55px;
+
+}
+
+    /*email*/
+
+input[type="email"] { 
+    width: 300px;
+    height: 30px;
+    font-size: medium;
+    color:black;
+    border-radius: 25px;
+    padding: 5px;
+}
+     /*senha*/
+
+input[type="password"]{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: medium;
+    border-radius: 25px;
+    padding: 5px;
+}
